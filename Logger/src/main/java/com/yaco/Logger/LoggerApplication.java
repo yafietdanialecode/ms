@@ -2,12 +2,14 @@ package com.yaco.Logger;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class LoggerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LoggerApplication.class, args);
+		ConfigurableApplicationContext context = SpringApplication.run(LoggerApplication.class, args);
+		
 	}
 
 }
