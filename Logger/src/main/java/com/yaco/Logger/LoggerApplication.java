@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.data.jpa.provider.HibernateUtils;
 
+
 import com.yaco.Logger.Models.User;
 
 @SpringBootApplication
