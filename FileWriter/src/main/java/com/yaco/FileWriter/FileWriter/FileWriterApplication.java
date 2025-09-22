@@ -60,6 +60,8 @@ public class FileWriterApplication {
 		return new MessageListenerAdapter(reciever, "recieveMessage");
 	}
 
+	
+
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context =  SpringApplication.run(FileWriterApplication.class, args);
