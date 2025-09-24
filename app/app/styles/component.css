@@ -1,0 +1,13 @@
+#side-panel {
+  border: 1px solid gray;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 200px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}/*# sourceMappingURL=component.css.map */
