@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FileWriterApplication<FileWriter>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.yaco.FileWriter.FileWriter.FileWriterApplication",
+            "projectName": "FileWriter",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
